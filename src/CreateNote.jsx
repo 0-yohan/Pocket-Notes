@@ -53,7 +53,7 @@ function CreateNote() {
           color: selectedColor,
           letters: letters,
           notes: [],
-        },
+        },      
       ]);
       toggleModal();
       setGrpName("");
@@ -140,7 +140,7 @@ function CreateNote() {
                 className="hidden"
                 style={{ marginTop: "-.5rem" }}
               >
-                Yet to fill one or both fields
+                Every Field is Required!
               </label>
             )}
           </div>

@@ -79,7 +79,7 @@ function NoteSection() {
       <div className={styles.header}>
         {isMobile && (
           <div onClick={() => setHide(isMobile && false)}>
-            <IoMdArrowRoundBack size="1.25rem" />
+            <IoMdArrowRoundBack size="2rem" />
           </div>
         )}
         <div>
@@ -110,8 +110,8 @@ function NoteSection() {
       <div className={styles.input}>
         <textarea
           cols="10"
-          rows="10"
-          placeholder="Enter your text here"
+          rows="12"
+          placeholder="Enter your text here..."
           value={noteText}
           onChange={(e) => {
             // if (e.target.value.trim() !== "") {
@@ -120,7 +120,7 @@ function NoteSection() {
           }}
         ></textarea>
         <div onClick={addNote}>
-          <BiSolidSend style={{ color: "#ABABAB" }} size="1.25rem" />
+          <BiSolidSend style={{ color: "grey" }} size="2rem" />
         </div>
       </div>
     </div>

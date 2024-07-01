@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import styles from "./styles/SelectedNotes.module.css";
 import AppContext from "./AppContext";
+
 function NoteHeading({ noteHeading }) {
   const { isMobile, setHide, setCurrentGroup } = useContext(AppContext);
   const { letters } = noteHeading;
@@ -24,7 +25,7 @@ function NoteHeading({ noteHeading }) {
       >
         {noteHeading.name && letters}
       </div>
-      <div>{noteHeading.name}</div>
+      <div>{noteHeading.name.slice(0,12)}</div>
     </div>
   );
 }

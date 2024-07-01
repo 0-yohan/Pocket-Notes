@@ -9,7 +9,7 @@ function SelectNotes() {
 
   return (
     <div className={`${styles.container} ${hide && styles.hidden} `}>
-      <h2>Pocket Notes</h2>
+      <h2 >Pocket Notes</h2>
       <CreateNote modal={modal} toggleModal={toggleModal} />
       {noteHeadings.length > 0 && (
         <>
