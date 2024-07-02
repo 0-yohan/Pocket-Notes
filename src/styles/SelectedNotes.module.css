@@ -64,8 +64,8 @@
 }
 
 .modalContent {
-  height: 250px;
-  width: 300px;
+  height: 225px;
+  width: 350px;
   background-color: white;
   font-weight: 500;
   padding: 1rem;
@@ -76,9 +76,9 @@
 .modalContent {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center;
 
-  align-items: center;
+  align-items: center; */
   gap: 1rem;
 }
 
@@ -90,9 +90,10 @@
 
 .modalContent input {
   width: 200px;
-  border-radius: 15px;
+  border-radius: 20px;
   border: 1px solid black;
   padding: 0.25rem 0.75rem;
+  margin-left: 0.5rem;
   font-size: 0.9rem;
   outline: none;
 }
@@ -161,8 +162,8 @@ button + label {
 
 .icon {
   color: #fff;
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   border-radius: 40px;
   display: grid;
   place-content: center;
@@ -184,19 +185,22 @@ button + label {
     height: 275px;
     gap: 2rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* padding-left: 10px; */
+    /* justify-content: center;
+    align-items: center; */
 
     font-size: 1.5rem;
   }
   .modalContent h3,
   .modalContent > div:first-of-type,
   .modalContent > div:last-of-type {
-    margin-left: 0rem;
+    margin-left: 1rem;
   }
   .modalContent input {
-    width: 180px;
+    width: 15rem;
     padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+
   }
 }
 

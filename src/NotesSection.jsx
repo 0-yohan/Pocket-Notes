@@ -120,7 +120,7 @@ function NoteSection() {
           }}
         ></textarea>
         <div onClick={addNote}>
-          <BiSolidSend style={{ color: "grey" }} size="2rem" />
+          <BiSolidSend style={{ color: "grey", cursor: "pointer" }} size="2rem" />
         </div>
       </div>
     </div>
