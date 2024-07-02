@@ -25,7 +25,7 @@ function NoteHeading({ noteHeading }) {
       >
         {noteHeading.name && letters}
       </div>
-      <div>{noteHeading.name.slice(0,12)}</div>
+      <div>{noteHeading.name.slice(0,20)}</div>
     </div>
   );
 }
